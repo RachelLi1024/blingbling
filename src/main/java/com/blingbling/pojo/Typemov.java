@@ -16,17 +16,8 @@ public class Typemov {
      */
     private String m_id;
 
-    /**
-     *
-     * @param tm_id
-     * @param t_id
-     * @param m_id
-     */
-    public Typemov(String tm_id, String t_id, String m_id){
-        super();
-        this.tm_id = tm_id;
-        this.t_id = t_id;
-        this.m_id = m_id;
+    public Typemov(){
+
     }
 
     /**

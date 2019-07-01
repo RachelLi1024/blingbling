@@ -11,15 +11,9 @@ public class Type {
      */
     private String t_name;
 
-    /**
-     * 构造方法
-     * @param t_id
-     * @param t_name
-     */
-    public Type(String t_id,String t_name){
-        super();
-        this.t_id = t_id;
-        this.t_name = t_name;
+
+    public Type(){
+
     }
 
     /**

@@ -18,20 +18,7 @@ public class Comment {
      */
     private int c_like;
 
-    /**
-     * 构造方法
-     * @param c_id
-     * @param c_content
-     * @param c_report
-     * @param c_like
-     */
-    public Comment(String c_id,String c_content,int c_report,int c_like){
-        super();
-        this.c_id = c_id;
-        this.c_content = c_content;
-        this.c_report = c_report;
-        this.c_like = c_like;
-    }
+    public Comment(){}
 
     /**
      * 获取评论ID

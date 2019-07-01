@@ -16,17 +16,8 @@ public class Evaluation {
      */
     SimpleDateFormat e_time;
 
-    /**
-     * 构造方法
-     * @param e_id
-     * @param e_rate
-     * @param e_time
-     */
-    public Evaluation(String e_id,int e_rate,SimpleDateFormat e_time){
-        super();
-        this.e_id = e_id;
-        this.e_rate = e_rate;
-        this.e_time = e_time;
+    public Evaluation(){
+
     }
 
     /**

@@ -21,19 +21,8 @@ public class History {
      */
     private int h_click;
 
-    /**
-     * 构造方法
-     * @param h_id
-     * @param h_time
-     * @param h_stay
-     * @param h_click
-     */
-    public History(String h_id,SimpleDateFormat h_time,String h_stay,int h_click){
-        super();
-        this.h_id = h_id;
-        this.h_time = h_time;
-        this.h_stay = h_stay;
-        this.h_click = h_click;
+    public History(){
+
     }
 
     /**

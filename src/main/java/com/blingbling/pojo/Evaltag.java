@@ -8,11 +8,9 @@ public class Evaltag {
 
     /**
      * 构造方法
-     * @param et_id
      */
-    public Evaltag(String et_id){
-        super();
-        this.et_id = et_id;
+    public Evaltag(){
+
     }
 
     /**

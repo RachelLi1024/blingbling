@@ -24,21 +24,8 @@ public class Discuss {
      */
     SimpleDateFormat d_time;
 
-    /**
-     * 构造方法
-     * @param d_id
-     * @param d_content
-     * @param d_report
-     * @param d_like
-     * @param d_time
-     */
-    public Discuss(String d_id,String d_content,int d_report,int d_like,SimpleDateFormat d_time){
-        super();
-        this.d_id = d_id;
-        this.d_content = d_content;
-        this.d_report = d_report;
-        this.d_like = d_like;
-        this.d_time = d_time;
+    public Discuss(){
+
     }
 
     /**

@@ -18,12 +18,8 @@ public class Typetag {
      */
     private String ta_id;
 
-    public Typetag(String tt_id, String t_id, String ta_id){
-        super();
+    public Typetag(){
 
-        this.tt_id = tt_id;
-        this.t_id = t_id;
-        this.ta_id = ta_id;
     }
 
     /**

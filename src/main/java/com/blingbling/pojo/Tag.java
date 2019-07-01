@@ -11,15 +11,9 @@ public class Tag {
      */
     private String ta_content;
 
-    /**
-     *
-     * @param ta_id
-     * @param ta_content
-     */
+
     public Tag(String ta_id, String ta_content) {
-        super();
-        this.ta_id = ta_id;
-        this.ta_content = ta_content;
+
     }
 
     public void setTa_id(String ta_id) {
