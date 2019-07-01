@@ -1,4 +1,4 @@
 package com.blingbling.pojo;
 
-public class tag {
+public class Type {
 }

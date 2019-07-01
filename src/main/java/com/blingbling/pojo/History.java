@@ -1,4 +1,4 @@
 package com.blingbling.pojo;
 
-public class history {
+public class History {
 }

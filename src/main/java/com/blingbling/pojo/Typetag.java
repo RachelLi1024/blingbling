@@ -1,4 +1,4 @@
 package com.blingbling.pojo;
 
-public class comment {
+public class Typetag {
 }
