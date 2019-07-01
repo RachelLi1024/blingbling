@@ -1,5 +1,7 @@
 package com.blingbling.pojo;
 
+import java.text.SimpleDateFormat;
+
 public class History {
     /**
      * 浏览记录ID
@@ -8,9 +10,10 @@ public class History {
     /**
      * 浏览时间
      */
-    private String h_time;
+    SimpleDateFormat h_time;
     /**
      * 页面停留时间
+     * ?
      */
     private String h_stay;
     /**
@@ -25,7 +28,7 @@ public class History {
      * @param h_stay
      * @param h_click
      */
-    public History(String h_id,String h_time,String h_stay,int h_click){
+    public History(String h_id,SimpleDateFormat h_time,String h_stay,int h_click){
         super();
         this.h_id = h_id;
         this.h_time = h_time;
@@ -52,14 +55,15 @@ public class History {
      * 获取浏览时间
      * @return
      */
-    public String getH_time(){
+    public SimpleDateFormat getH_time() {
         return h_time;
     }
+
     /**
      * 设置浏览时间
      * @param h_time
      */
-    public void setH_time(String h_time){
+    public void setH_time(SimpleDateFormat h_time) {
         this.h_time = h_time;
     }
 

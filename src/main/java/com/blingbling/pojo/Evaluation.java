@@ -14,7 +14,7 @@ public class Evaluation {
     /**
      * 评价时间
      */
-    private String e_time;
+    SimpleDateFormat e_time;
 
     /**
      * 构造方法
@@ -22,7 +22,7 @@ public class Evaluation {
      * @param e_rate
      * @param e_time
      */
-    public Evaluation(String e_id,int e_rate,String e_time){
+    public Evaluation(String e_id,int e_rate,SimpleDateFormat e_time){
         super();
         this.e_id = e_id;
         this.e_rate = e_rate;
@@ -63,14 +63,21 @@ public class Evaluation {
      * 获取评价时间
      * @return e_time
      */
-    public String getE_time(){
+   // public String getE_time(){ return e_time; }
+
+    public SimpleDateFormat getE_time() {
         return e_time;
     }
+
     /**
      * 设置评价时间
      * @param e_time
      */
-    public void setE_time(String e_time){
+//   // public void setE_time(String e_time){
+//        this.e_time = e_time;
+//    }
+
+    public void setE_time(SimpleDateFormat e_time) {
         this.e_time = e_time;
     }
 }

@@ -1,5 +1,7 @@
 package com.blingbling.pojo;
 
+import java.text.SimpleDateFormat;
+
 public class Discuss {
     /**
      * 留言ID
@@ -20,7 +22,7 @@ public class Discuss {
     /**
      * 留言时间
      */
-    private String d_time;
+    SimpleDateFormat d_time;
 
     /**
      * 构造方法
@@ -30,7 +32,7 @@ public class Discuss {
      * @param d_like
      * @param d_time
      */
-    public Discuss(String d_id,String d_content,int d_report,int d_like,String d_time){
+    public Discuss(String d_id,String d_content,int d_report,int d_like,SimpleDateFormat d_time){
         super();
         this.d_id = d_id;
         this.d_content = d_content;
@@ -46,6 +48,7 @@ public class Discuss {
     public String getD_id(){
         return d_id;
     }
+
     /**
      * 设置留言ID
      * @param d_id
@@ -61,6 +64,7 @@ public class Discuss {
     public String getD_content(){
         return d_content;
     }
+
     /**
      * 设置留言内容
      * @param d_content
@@ -103,14 +107,15 @@ public class Discuss {
      * 获取评价时间
      * @return d_time
      */
-    public String getE_time(){
+    SimpleDateFormat getE_time(){
         return d_time;
     }
+
     /**
      * 设置评价时间
-     * @param d_time
+     * @return d_time
      */
-    public void setE_time(String d_time){
-        this.d_time = d_time;
+    public SimpleDateFormat setD_time() {
+        return d_time;
     }
 }
