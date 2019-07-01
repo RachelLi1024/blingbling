@@ -1,4 +1,4 @@
 package com.blingbling.controller.admin;
 
-public class commentManage {
+public class DataManage {
 }
