@@ -1,4 +1,4 @@
 package com.blingbling.controller.user;
 
-public class comment {
+public class UserInfo {
 }

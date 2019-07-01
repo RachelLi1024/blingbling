@@ -1,4 +1,4 @@
 package com.blingbling.service;
 
-public class adminService {
+public class AdminService {
 }

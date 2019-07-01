@@ -1,5 +1,4 @@
 package com.blingbling.controller.user;
 
-public class searchMov {
-
+public class MovieWish {
 }

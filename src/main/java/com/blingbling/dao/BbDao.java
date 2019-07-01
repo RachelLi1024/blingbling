@@ -1,4 +1,4 @@
 package com.blingbling.dao;
 
-public class bbDao {
+public class BbDao {
 }

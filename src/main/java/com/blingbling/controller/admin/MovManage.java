@@ -1,4 +1,4 @@
 package com.blingbling.controller.admin;
 
-public class userManage {
+public class MovManage {
 }
