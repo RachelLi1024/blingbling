@@ -1,6 +1,8 @@
 package com.blingbling.pojo;
 
-import java.time.format.SignStyle;
+/**
+ * 每类电影都拥有特定内容的标签
+ */
 
 public class Typetag {
     /**

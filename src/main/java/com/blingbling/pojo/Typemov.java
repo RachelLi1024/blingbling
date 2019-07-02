@@ -1,5 +1,9 @@
 package com.blingbling.pojo;
 
+/**
+ * 一部电影可属于不同类别
+ */
+
 public class Typemov {
     /**
      * 分类-电影ID

@@ -13,7 +13,7 @@ public class History {
     SimpleDateFormat h_time;
     /**
      * 页面停留时间
-     * ?
+     * ?类型
      */
     private String h_stay;
     /**

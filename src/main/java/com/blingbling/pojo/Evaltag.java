@@ -1,5 +1,9 @@
 package com.blingbling.pojo;
 
+/**
+ * 一条评价可附带多个标签
+ */
+
 public class Evaltag {
     /**
      * 评价-标签ID
