@@ -1,4 +1,4 @@
 package com.blingbling.controller.user;
 
-public class Comment {
+public class ComManage {
 }
